@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: choco;
+    src: url(fonte/Chocolate\ Team.ttf);
+}
+@font-face {
+    font-family: lovem;
+    src: url(fonte/makinglovem.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root {
+    --fonte1:'Bebas Neue', arial ; 
+    --fonte2:"choco";
+    --fonte3: "lovem";
+
+
+    --cor-h1--principal:#FDD30B;
+    --cor-cabeçalho: #62210dad;
+    --cor-de-fundo: #FDFD96;
+    --cor-destaque: #FC315E;
+
+
+}
+body {
+   font-family: var(--fonte1);
+   
+}
+
+
+header{
+    background-color: var(--cor-cabeçalho);
+    max-height: 30vh;
+    min-height: 30vh;
+}
+
+header img {
+    max-width: 18%;
+}
+
+header h1 {
+    font-family: var(--fonte3);
+    color: var(--cor-h1--principal);
+    margin-left: 15%;
+    font-size: 5vw;
+   
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+}
+
+
+.container3 {
+    background-color: var(--cor-de-fundo);
+    margin: auto;
+    min-width: 350px;
+    max-width: 450px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 43%);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.container4 {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    
+
+}
+
+.video{
+    position: relative;
+    padding-bottom: 93%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer {   
+    background-color: var(--cor-cabeçalho);
+    text-align: center; 
+    padding-bottom: 22px;
+
+}
+
+footer a {
+    color: var(--cor-h1--principal);
+    text-decoration: none;
+    margin: 70px;     
+}
+
+footer a:hover{
+    color: var(--cor-destaque);
+}
+main{
+    width: 100%;
+    background-color: var(--cor-cabeçalho);
+    
+}
+
+main h1 {
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+.h1black{
+    font-size: 2em;
+    color: rgb(240, 240, 240);
+}
+
+.destaque {
+    font-size: 4vh;
+    color: var(--cor-destaque);
+}
+
+.imagem1 {
+    max-width: 45%;
+    min-width: 35%;
+}
+.paragrafo01{
+    font-family: var(--fonte2);
+    font-size: 3vw;
+    color: #FC315E;
+    width: 27%;
+}
+
+.escrita{
+    font-size: 1em;
+    color: black;
+}
+
+.fundador {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+.fundador:hover{
+    color: var(--cor-de-fundo);
+}
+
+.desenvolvedor {
+    margin-top: 20%;
+    font-size: 10px;
+    text-align: end;
+}
+
+
+
+
+
+
